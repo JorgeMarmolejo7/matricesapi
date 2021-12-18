@@ -16,6 +16,7 @@ posy = 0
 
 @mat.get('/pide')
 def mulmat():
+    matrizC = [[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]]
     for i in range(len(matrizA)):
         for j in range(len(matrizB)):
             for k in range(len(matrizB)):
