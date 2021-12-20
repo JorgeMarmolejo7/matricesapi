@@ -14,7 +14,7 @@ a = 0
 posx = 0
 posy = 0
 
-@mat.get('/pide')
+@mat.get('/multiplica')
 def mulmat():
     for i in range(len(matrizA)):
         for j in range(len(matrizB)):
@@ -31,6 +31,7 @@ def actualiza(nuevo,x,y):
 @mat.get('/devmat')
 def devmat():
     return str(matrizC)
+
 
 @mat.get('/coord')
 def devc():
